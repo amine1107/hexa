@@ -1,6 +1,6 @@
 {
   "name": "hexa-animation",
-  "version": "1.0.0",
+  "version": "1.5.1",
   "description": "css animation library",
   "main": "index.js",
   "scripts": {
