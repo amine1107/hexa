@@ -1,0 +1,198 @@
+// Grids ------------------------------
+// ------------------------------------
+
+.container-fluid {
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    &:before, &:after {
+      content: " ";
+      display: table;
+    }
+  }
+  
+  .row {
+    &:before, &:after {
+      content: " ";
+      display: table;
+    }
+  }
+  
+  .container:after, .row:after {
+    clear: both;
+  }
+  
+  [class*='col-'] {
+    width: 100%;
+    float: left;
+    min-height: 1px;
+  }
+  
+  .col {
+    padding: 1em;
+    margin: 0 auto;
+  }
+
+  .col.col-shadow {
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .col.col-center {
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 790px) {
+    .col-wd-1 {
+      width: 8.33333%;
+    }
+    .col-wd-2 {
+      width: 16.66667%;
+    }
+    .col-wd-3 {
+      width: 25%;
+    }
+    .col-wd-4 {
+      width: 33.33333%;
+    }
+    .col-wd-5 {
+      width: 41.66667%;
+    }
+    .col-wd-6 {
+      width: 50%;
+    }
+    .col-wd-7 {
+      width: 58.33333%;
+    }
+    .col-wd-8 {
+      width: 66.66667%;
+    }
+    .col-wd-9 {
+      width: 75%;
+    }
+    .col-wd-10 {
+      width: 83.33333%;
+    }
+    .col-wd-11 {
+      width: 91.66667%;
+    }
+    .col-wd-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .col-md-1 {
+      width: 8.33333%;
+    }
+    .col-md-2 {
+      width: 16.66667%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33333%;
+    }
+    .col-md-5 {
+      width: 41.66667%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33333%;
+    }
+    .col-md-8 {
+      width: 66.66667%;
+    }
+    .col-md-9 {
+      width: 75%;
+    }
+    .col-md-10 {
+      width: 83.33333%;
+    }
+    .col-md-11 {
+      width: 91.66667%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 960px) {
+    .col-sm-1 {
+      width: 8.33333%;
+    }
+    .col-sm-2 {
+      width: 16.66667%;
+    }
+    .col-sm-3 {
+      width: 25%;
+    }
+    .col-sm-4 {
+      width: 33.33333%;
+    }
+    .col-sm-5 {
+      width: 41.66667%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33333%;
+    }
+    .col-sm-8 {
+      width: 66.66667%;
+    }
+    .col-sm-9 {
+      width: 75%;
+    }
+    .col-sm-10 {
+      width: 83.33333%;
+    }
+    .col-sm-11 {
+      width: 91.66667%;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+
+  // Colmun Border Color
+  .col.col-border-black {
+    border: 1px solid $black;  
+  }
+
+  .col.col-border-silver {
+    @include grid-border-color($silver);
+  }
+
+  .col.col-border-gray {
+    @include grid-border-color($gray);
+  }
+
+  .col.col-border-red {
+    @include grid-border-color($red);
+  }
+
+  .col.col-border-maroon {
+    @include grid-border-color($maroon);
+  }
+
+  .col.col-border-yellow {
+    @include grid-border-color($yellow);
+  }
+
+ // manque couleur
