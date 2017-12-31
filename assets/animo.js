@@ -136,10 +136,10 @@ $(".animTada").click(function() {
   $(".animTurbineOutUp").click(function() {
     $(this).toggleClass("hexa turbineOutUp ");
   });
-  $(".animTrubineOutLeft").click(function() {
+  $(".animTurbineOutLeft").click(function() {
     $(this).toggleClass("hexa turbineOutLeft ");
   });
-  $(".animTrubineOutRight").click(function() {
+  $(".animTurbineOutRight").click(function() {
     $(this).toggleClass("hexa turbineOutRight ");
   });
   $(".animTurbineOutDown").click(function() {
