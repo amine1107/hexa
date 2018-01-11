@@ -1,4 +1,4 @@
-![alt tag](https://amine1107.github.io/Hexa/assets/hexaLogo.png)
+![alt tag](https://amine1107.github.io/Hexa/assets/logo.png)
 # Hexa
 an impressive css animation library, simple and ligh.
 ## Version 
