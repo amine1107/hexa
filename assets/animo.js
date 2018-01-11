@@ -119,6 +119,11 @@ $(".animShapeStar").click(function() {
     $(this).toggleClass("hexa shapeStar ");
   });
 
+// Shake Animation 
+$(".animShake").click(function() {
+    $(this).toggleClass("hexa shake ");
+  });
+
 // Spin Animation 
 $(".animSpin").click(function() {
     $(this).toggleClass("hexa spin ");

@@ -236,6 +236,11 @@ border: none;
   color: #fff;
 }
 
+.section.shakee {
+  background-color: #e67e22;
+  color: #fff;
+}
+
 .rounded-circle {
   cursor: pointer;
 }
@@ -248,4 +253,11 @@ border: none;
 .section.footer a {
   text-decoration: none;
   color: #34495e;
+}
+
+/* Box */
+.box {
+  width: 70px;
+  height: 70px;
+  background-color: grey;
 }
