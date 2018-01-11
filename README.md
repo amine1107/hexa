@@ -1,7 +1,8 @@
 ![alt tag](https://amine1107.github.io/Hexa/assets/hexaLogo.png)
 # Hexa
 an impressive css animation library, simple and ligh.
-
+## Version 
+version 1.0
 ## Getting Started 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -34,4 +35,4 @@ For more Informations visit :
 * Aouane Amine
 
 ## Licence 
-MIT Licence
+MIT License
