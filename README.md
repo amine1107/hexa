@@ -11,6 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 the easiest way to get Hexa is to download it as a file
 * [Download](https://amine1107.github.io/Hexa/assets/hexa.css)
 ### Installation
+Using CDN
+```
+https://gitcdn.xyz/repo/amine1107/Hexa/master/hexa.min.css
+```
 Install via npm 
 ```
 $ npm install hexa-animation
